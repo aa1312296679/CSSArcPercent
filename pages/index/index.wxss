@@ -1,0 +1,75 @@
+/**index.wxss**/
+
+/**css进度圆环**/
+
+/* .wrap, .circle, .percent {
+  position: absolute;
+  width: 105rpx;
+  height: 105rpx;
+  border-radius: 50%;
+} */
+
+
+/**
+ 圆环主容器
+**/
+
+/* .wrap {
+  top: 26.31rpx;
+  left: 26.31rpx;
+  background-color: #ff9d0d;
+} */
+
+/**
+圆环副容器
+**/
+/* .circle {
+  box-sizing: border-box;
+  border: 8rpx solid #ff9d0d;
+  clip: rect(0, 105rpx, 105rpx, 52.6rpx);
+}
+
+.clip-auto {
+  clip: rect(auto, auto, auto, auto);
+} */
+
+/**
+外层圆环x y坐标 
+**/
+/* .percent {
+  box-sizing: border-box;
+  top: -7.52rpx;
+  left: -8rpx;
+} */
+
+/**右半圆**/
+
+/* .left {
+  transition: transform ease;
+  border: 8rpx solid blue;
+  clip: rect(0, 52.6rpx, 105.2rpx, 0);
+} */
+
+/**左半圆**/
+
+/* .right {
+  border: 8rpx solid blue;
+  clip: rect(0, 105.2rpx, 105.2rpx, 52.6rpx);
+}
+
+.wth0 {
+  width: 0;
+}
+
+.num {
+  position: absolute;
+  box-sizing: border-box;
+  width: 89.21rpx;
+  height: 89.21rpx;
+  line-height: 87.21rpx;
+  left: 8.52rpx;
+  top: 8.52rpx;
+  border-radius: 50%;
+  background-color: red;
+  z-index: 1;
+} */

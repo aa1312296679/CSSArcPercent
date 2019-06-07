@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<com-arc id="arc" percent="{{percent}}"></com-arc>
