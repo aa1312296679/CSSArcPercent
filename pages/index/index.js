@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    percent: 10
+    percent: 50
   },
 
   onLoad: function() {

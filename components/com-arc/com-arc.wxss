@@ -43,7 +43,7 @@
   left: -8rpx;
 }
 
-/**左扇形**/
+/**右扇形**/
 
 .left {
   /* transition: transform ease 2s; */
@@ -51,7 +51,7 @@
   clip: rect(0, 52.6rpx, 105.2rpx, 0);
 }
 
-/**右扇形**/
+/**左扇形**/
 
 .right {
   border: 8rpx solid #fff;
@@ -59,9 +59,7 @@
   /* animation: circleProgressLoad_right 5s infinite; */
 }
 
-.wth0 {
-  width: 0;
-}
+
 
 .num {
   position: absolute;

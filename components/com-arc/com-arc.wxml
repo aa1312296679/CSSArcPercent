@@ -1,13 +1,13 @@
-<!--圆环进度主容器-->
+<!--圆环进度-->
 <view class="wrap">
-  <!--圆环副容器-->
+  <!--圆环-->
   <view class="circle {{percent>50?'clip-auto':''}}">
-    <!--圆环的左扇形-->
-    <view class="percent left" style="transform: rotate({{arcAngel}}deg);"></view>
-    <!--圆环的右扇形-->
-    <view class="percent right {{percent<50?'wth0':''}}"></view>
+    <!--右扇形-->
+     <view class="percent left" style="transform: rotate({{arcAngel}}deg);"></view>
+    <!--左扇形-->
+    <!-- <view wx:if="{{percent>50}}" class="percent right"></view> -->
   </view>
-  <!--内圆心-->
+  <!--圆环进度的圆心-->
   <view class="num">
     <text class='txt_one'>已抢</text>
     <text>{{percent}}%</text>
