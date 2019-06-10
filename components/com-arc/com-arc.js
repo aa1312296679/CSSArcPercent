@@ -7,9 +7,17 @@ Component({
       value: 0
     }
   },
+  ready() {
+    this.ringAngle();
+  },
   data: {
     //外层圆环的长方体的旋转角度
     arcAngel: 0
+  },
+  observers: {
+    'percent': function(percent) {
+      this.ringAngle();
+    }
   },
   methods: {
     /**
@@ -21,8 +29,11 @@ Component({
       var angel = 3.6 * this.data.percent;
       //更新数据层
       this.data.arcAngel = angel;
+      console.log(this.data.arcAngel)
       //更新数据层对应的模板层重新渲染DOM
-      this.setData(this.data);
+      this.setData({
+        arcAngel: this.data.arcAngel
+      });
     }
   }
 })

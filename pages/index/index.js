@@ -4,10 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    percent: 50
-  },
-
-  onLoad: function() {
-    this.selectComponent("#arc").ringAngle();
+    percent: 10
   }
 })
