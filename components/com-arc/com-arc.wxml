@@ -2,9 +2,9 @@
 <view class="wrap">
   <!--圆环-->
   <view class="circle {{percent>50?'clip-auto':''}}">
-    <!--右扇形-->
-     <view class="percent left" style="transform: rotate({{arcAngel}}deg);"></view>
     <!--左扇形-->
+     <view class="percent left" style="transform: rotate({{arcAngel}}deg);"></view>
+    <!--右扇形-->
     <view wx:if="{{percent>50}}" class="percent right"></view>
   </view>
   <!--圆环进度的圆心-->

@@ -4,6 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    percent: 10
+    percent: 100
   }
 })
